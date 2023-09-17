@@ -2,7 +2,7 @@ const discord = require('discord.js');
 
 module.exports = async (client, message) => {
 	message.delete();
-	if (message.author.id !== '354233941550694400') return 0;
+	if (message.author.id !== '487288989288628224') return 0;
 	const row = new discord.ActionRowBuilder().addComponents(
 		new discord.StringSelectMenuBuilder()
 			.setCustomId('ajuda')

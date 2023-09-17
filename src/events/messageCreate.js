@@ -3,7 +3,7 @@ module.exports = async (client, message) => {
 
 	if (
 		message.content.startsWith('ps?') &&
-		message.author.id === '354233941550694400'
+		message.author.id === '487288989288628224'
 	)
 		require('../messages/' + message.content.replace('ps?', ''))(
 			client,
