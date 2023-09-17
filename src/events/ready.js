@@ -2,6 +2,7 @@ const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v10");
 const { readdirSync } = require("fs");
 require("dotenv").config();
+const discord = require('discord.js');
 const { ChalkAdvanced } = require("chalk-advanced");
 
 module.exports = async (client) => {
@@ -52,7 +53,7 @@ module.exports = async (client) => {
     }
   })();
   client.user.setPresence({
-    activities: [{ name: `Sempre pronto para 🍪`, type: 0 }],
+    activities: [{ name: `Eita, sou novo por aqui!`, type: discord.ActivityType.Custom }],
     status: "dnd",
   });
 
