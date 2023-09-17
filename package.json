@@ -10,9 +10,7 @@
     "discord-api-types": "^0.37.17",
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3",
-    "fs": "^0.0.1-security",
-    "moment": "^2.29.4",
-    "mongoose": "^7.3.4"
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "eslint": "^8.35.0",
@@ -20,7 +18,7 @@
     "eslint-config-semistandard": "^17.0.0",
     "prettier": "^3.0.0"
   },
-  "name": "gou-user-bot",
+  "name": "pessinhas-bot",
   "version": "1.0.0",
   "license": "MIT"
 }
