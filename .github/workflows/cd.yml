@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: kuriel23/for-you:latest
+          tags: kuriel23/pessinhas-bot:latest
